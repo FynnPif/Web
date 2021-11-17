@@ -27,3 +27,38 @@ for (i = 1; i < 101; i++){
 document.write(sum_i);
 
 //Aufgabe 3
+document.write("<br>" + "Aufgabe 3" + "<br>");
+for(y=0; y < 5; y++){
+    switch(y){
+        case 0:
+            for(x=1; x < 5; x++){
+                document.write("X ")
+            }
+            document.write("<br>")
+            break;
+
+        case 1:
+            document.write("X")
+            document.write("<br>")
+            break;
+            
+        case 2: 
+            for(x=1; x < 4; x++){
+                document.write("X ")
+            }
+            document.write("<br>")
+            break;
+
+        case 3: 
+            document.write("X")
+            document.write("<br>")
+            break;
+
+        case 4:
+            document.write("X")
+            document.write("<br>")
+            break;
+    }        
+}
+    
+
