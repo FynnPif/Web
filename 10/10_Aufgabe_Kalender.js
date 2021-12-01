@@ -7,19 +7,16 @@ var calenderConfig = {
 var globalVariables = {
     currentMonth: 0,
     currentDay: 1,
-    //daysOffsetPerMonth: 4,
-    maxDaysPerMonth: 35,
+    daysOffsetPerMonth: 4,
+    maxDaysPerMonth: 35
 }
 
 function printCalender(){
+    document.write("Kalender 2021" + "<br>")
+
     for (x = 0; x < 12; x++){
         document.write(calenderConfig.monthName[globalVariables.currentMonth] + "<br>")
-        globalVariables.currentMonth++;
-        for(y2 = 0; y2 < 13; y2++){
-            for(y1 = 0; y1 < calenderConfig.monthLength[x]; y1++){
-                globalVariables.currentDay++
-            }     
-        }
+        globalVariables.currentMonth++;  
         
         for(z = 0; z < 7; z++){
             document.write(" | " + calenderConfig.weekDays[z])
@@ -28,18 +25,24 @@ function printCalender(){
                 document.write(" | " + "<br>")
             }
         }
-        for(v=0; v < 6; v++){    
-            for(y=0; y < 8; y++){
-                    document.write(" | " + globalVariables.currentDay[y1])
+
+        for(v=0; v < 5; v++){    
+            for(y=0; y < 7; y++){
+                document.write(" | " + globalVariables.currentDay)
+                globalVariables.currentDay++
+                if (globalVariables.currentDay > calenderConfig.monthLength[x]){
+                    globalVariables.currentDay = 1;
                 }
+            }
+
             document.write("<br>")
-        }    
+        }   
     }
 }
-function printMonths(){
-   
-}
-
 
 printCalender();
-printMonths();
+
+//next Steps:
+//  max days per month
+//  offset
+            
