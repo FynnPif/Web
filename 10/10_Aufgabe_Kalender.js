@@ -33,8 +33,13 @@ function printCalender(){
                 if (globalVariables.currentDay > calenderConfig.monthLength[x]){
                     globalVariables.currentDay = 1;
                 }
+                /*if(globalVariables.currentDay == calenderConfig.monthLength[x]){
+                    var xy = globalVariables.maxDaysPerMonth - globalVariables.currentDay;
+                    for(xy; xy < 5; xy++){
+                        document.write(" | " + "-")
+                    }
+                }*/
             }
-
             document.write("<br>")
         }   
     }
