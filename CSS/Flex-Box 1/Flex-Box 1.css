@@ -1,0 +1,28 @@
+.upper{
+    height: 70vh;
+    display: flex;
+    justify-content: space-between;
+    background-image: url(TonyhawkDiyu.png);
+}
+
+.lower{
+    height: 30vh;
+    background-color: brown;
+    display: flex;
+    justify-content: center;
+}
+
+.box{
+    border-style:solid;
+    height: 200px;
+    width: 200px;
+    margin: 70px;
+}
+
+.logo{
+    border-style:solid;
+    height: 200px;
+    width: 200px;
+    margin: 70px;
+    background-image: url(ACE.png);
+}

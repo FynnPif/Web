@@ -1,0 +1,34 @@
+.header{
+    text-align: center;
+    background-color: red;
+    border-style: solid;
+    border-radius: 2rem;
+    height: 40px;
+    width:100%;
+    font-size: 2rem;
+    position:fixed;
+    
+}
+.text1{
+    color: red;
+    font-size: 20px;
+    margin-bottom: 1%;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+}
+.TheBox{
+    border-style: solid;
+    height: 200px
+}
+
+.InsideTheBox{
+    width: 80px;
+    position: relative;
+    left: 400px;
+}
+.InsideTheBox2{
+    border-style: solid;
+    position:absolute;
+    bottom: 100px;
+}

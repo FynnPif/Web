@@ -1,0 +1,119 @@
+*{
+    font-family: 'Lato', sans-serif;
+    
+    --nameBarText: 30px;
+    
+}
+
+.wrap{
+    background-color: lightgray;
+    height: 100em;
+    width: 100%;
+    display: flex;
+    position: relative;
+}
+.mainWrap{
+    width: 45.7%;
+    height: 100%;
+    left: 6.7%;    
+    position: absolute;
+    background-color: white;
+}
+
+#ul2{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+#ul3{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+li{
+    display: inline;
+    margin: auto;
+}
+
+.navigations{
+    padding-bottom: 5px;
+    background-color: lightgray;
+}
+
+.upperNavigation{
+    background-color: red;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position:relative;
+}
+.navigationLeft{
+    margin-left: 5px;
+    width: 70%;
+}
+.navigationRight{
+    right: 0px;
+    margin-right: 5px;
+}
+
+.nameBar{
+    width: 225px;
+    height: 90px;
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+    font-size: var(--nameBarText);
+    margin-left: 30px;
+    color: white;   
+}
+
+.logo{
+    height: 100px;
+    width: 100px;
+}
+.middleNavigation{
+    background-color: #BA131A;
+    width: 100%;
+}
+
+.lowerNavigation{
+    background-color: red;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.lowNavLeft{
+    display: flex;
+    background-color: green;
+    width: 90%;
+    justify-content: space-between;
+}
+
+#picture1{
+    width: 100%;
+}
+
+.mainTextWrap{
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+}
+.mainText{
+    position: absolute;
+    width: 70%;
+    height: 100vh;
+    top: -100px; 
+    background-color: white;
+    padding: 10px;
+}
+
+/*Kleine Schöneheitsfehler*/

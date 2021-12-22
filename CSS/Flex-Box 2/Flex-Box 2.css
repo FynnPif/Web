@@ -1,0 +1,48 @@
+
+.lower{
+    margin-top: 50px;
+}
+
+.bigBox{
+    height: 300px;
+    width: 460px;
+    background-color: khaki;
+    position: relative;
+    padding: 20px;
+    margin: 20px;
+    
+}
+
+.cornerBigBox{
+    height: 100px;
+    width: 100px;
+    background-color: purple;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+}
+.cornerBox{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+.bigBox2{
+    background-color: blueviolet;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 150px;
+    
+}
+
+.box{
+    background-color: green;
+    height: 50px;
+    width: 50px;
+    
+}

@@ -1,0 +1,28 @@
+.wrap{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-auto-rows: minmax(100px, auto);
+    column-gap: 1px;
+    row-gap: 1px;
+
+}
+
+.box{
+    background-color: red;
+    padding: 10px;
+
+}
+.item1{
+    grid-column-start: span 2;
+    grid-row-start: span 2;
+}
+.item5{
+    grid-column-start: span 3;
+}
+
+@media (min-width: 600px){
+    body{
+        background-color: green;
+    }
+}
+    
