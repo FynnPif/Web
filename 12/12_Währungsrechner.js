@@ -1,18 +1,19 @@
-currencyConversions = {
-    currencies: [1.13, 1, 0.85]
-}
+const currencyConversions = [
+    {"conversion": 1.13},
+    {"conversion": 1},
+    {"conversion": 1.33}
+]
+    function convert(){
+        var givenNumber = document.getElementById("valueInput").value;
+        var currentCurrency = currencyConversions[document.getElementById("givenCurrency").value];
+        var convertCurrency = currencyConversions[document.getElementById("inputCurrency").value];
+        var convertedValue = 0;
 
-    var givenNumber = document.getElementById("valueInput");
-    var currentCurrency = document.getElementById("givenCurrency");
-    var convertCurrency = document.getElementById("convertedCurrency");
-    var convertedValue = givenNumber * currencyConversions.currencies[0]
+        if (currentCurrency == convertCurrency){
+            convertedValue = givenNumber
+        }
 
-    console.log(convertedValue)
+        convertedValue = Math.round((currentCurrency.conversion * givenNumber)*100)/100;
 
-document.getElementById("convert").value.addEventListener("click", function(){
-    convertedValue;
-});
-
-//function convert1(){
-    //console.log(givenNumber, currentCurrency, convertCurrency)
-//}
+        document.getElementById("output").innerHTML = convertedValue;
+    }    

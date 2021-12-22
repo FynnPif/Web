@@ -5,29 +5,26 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
     <script type="text/javascript" src="12_Währungsrechner.js"></script>
 </head>
 <body>
-    <div class="wrap">
-        <input type="number" id="valueInput" placeholder="Enter number"/>
-        <div class="conversionButtons">
-            <ul style = "list-style-type: none;">
-                <li>
-                    <select name="currency" id="givenCurrency">
-                        <option value="1">€</option>
-                        <option value="2">$</option>
-                        <option value="3">£</option>
-                    </select>
-                </li>
-                <li>
-                    <select name="currency" id="convertedCurrency">
-                        <option value="1">$</option>
-                    </select>
-                </li>
-            </ul>
-            <button id="convert">Convert</button>
+    <h1>Epischer Währungsrechner</h1>
+    <div class="wrapper">
+        <div class="currentCurrency">
+            <input type="number" id="valueInput" placeholder="Insert Number">
+            <select name="currency" id="givenCurrency">
+                <option value="0">€</option>
+                <option value="1">$</option>
+                <option value="2">£</option>
+            </select>
+            <button type="button" onclick="convert()"> Calculate </button>
+        </div>
+        <div class="wantedCurrency">
+            <output id="output"></output>
+        <select name="currency" id="inputCurrency">
+            <option value="1">$</option>
+        </select>
         </div>
     </div>
-    
 </body>
-</html>

@@ -1,16 +1,29 @@
-.wrap{
-    position: relative;
-    height: 100em;
-    width: 100%;
+.wrapper{
     display: flex;
-    position: relative;
+    align-items: center;
+    justify-content: space-around;
+    height: 600px;
 }
 
-.li{
-    display: inline;
-    
+.wrapper div {
+    width: 300px;
+    height: 100px;
 }
 
-.noBullet{
-    list-style-type: none;
+.currentCurrency{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(154, 209, 24);
+}
+
+.wantedCurrency{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(197, 107, 22);
+}
+
+#h1{
+    font-size: 50px;
 }
