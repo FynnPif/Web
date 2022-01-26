@@ -1,0 +1,17 @@
+let urlTeams = "https://api.football-data.org/v2/competitions/2002/teams"
+
+fetch(urlTeams , {
+    method:"GET",
+
+    headers: {
+        "x-auth-token:": "819babcd7902454f930c154272296d78"
+    }
+})
+.then(repsonse => repsonse.json())
+.then(function(data) {
+    let html = ""
+    data.teams.forEach(element => {
+        html += "<li>" + element.name + "</li>"        
+    });
+    document.getElementById("teams").innerHTML = html;
+})
