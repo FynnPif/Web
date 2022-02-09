@@ -1,0 +1,31 @@
+.wrap{
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    left: 0px;
+    top: 0px;
+    background: url(https://www.wallsauce.com/pdi/14896/767/0/0/large-football-stadium-lights.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.innerWrap{
+    position: absolute;
+    width: 84vw;
+    height: 100vh;
+    left: 200px;
+    top: 0px;
+
+    background: #000000;
+    border-radius: 3px;
+}   
+
+.content{
+    position: absolute;
+    width: 69vw;
+    height: 86.7vh;
+    left: 200px;
+    top: 170px;
+
+    background: #E9E9E9;
+}
