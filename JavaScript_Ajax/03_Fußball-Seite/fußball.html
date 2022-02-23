@@ -13,17 +13,15 @@
     <div class="wrap">
         <div class="innerWrap">
             <div class="header">
-                <li>
-                    <ul>
-                        <div class="home">Home</div>
-                        <div class="teams">Teams</div>
-                        <div class="players">Spieler</div>
-                        <div class="results">Ergebnisse</div>
-                        <div class="news">Aktuelles</div>
-                    </ul>
-                </li>
+                <button id="home">Home</button>
+                <button id="teams"onclick="teams()">Teams</button>
+                <button id="players"onclick="players()">Spieler</button>
+                <button id="results"onclick="leagues()">Ergebnisse</button>
+                <button id="news">Aktuelles</button>
             </div>
-            <div class="content"></div>
+            <div class="content" id="content">
+
+            </div>
         </div>
     </div>
     <ul id="teams">
