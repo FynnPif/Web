@@ -1,19 +1,23 @@
 import './App.css';
-import ButtonRow from './components/ButtonRow';
+import Vote from './components/Vote';
+{/*import ButtonRow from './components/ButtonRow';
 import SuperButton from './components/SuperButton';
 import ButtonList from './components/ButtonList';
-import Card from './components/Card';
+import Card from './components/Card';*/}
 
 function App() {
   return (
     <div className="App">
       <h1 class="heading">Hello</h1>
-      <SuperButton/>
+      {/*<SuperButton/>
       <ButtonRow/>
       <ButtonRow/>
       <ButtonRow/>
       <ButtonList/>
-      <Card/>
+      <Card/>*/}
+      <Vote candidate="Sepp" address="Dornbirn"/>
+      <Vote candidate="Paul" address="Bregenz"/>
+      <Vote candidate="Hans" address="Feldkirch"/>
     </div>
   );
 }
