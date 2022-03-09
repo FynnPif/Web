@@ -1,3 +1,18 @@
 .heading{
-    background-color: aqua;
+    background-color: lightblue;
 }
+button{
+    background-color: rgb(49, 179, 55);
+    color: white;
+    display: block;
+    width: 100px;
+    height: 40px;
+    text-align: center;
+    border: 0px;
+    margin: 1px;
+}
+button:hover{
+    cursor: pointer;
+    background-color: teal;
+}
+

@@ -1,6 +1,8 @@
 import './App.css';
 import ButtonRow from './components/ButtonRow';
 import SuperButton from './components/SuperButton';
+import ButtonList from './components/ButtonList';
+import Card from './components/Card';
 
 function App() {
   return (
@@ -10,6 +12,8 @@ function App() {
       <ButtonRow/>
       <ButtonRow/>
       <ButtonRow/>
+      <ButtonList/>
+      <Card/>
     </div>
   );
 }
