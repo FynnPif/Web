@@ -15,9 +15,11 @@ function App() {
       <ButtonRow/>
       <ButtonList/>
       <Card/>*/}
-      <Vote candidate="Sepp" address="Dornbirn"/>
-      <Vote candidate="Paul" address="Bregenz"/>
-      <Vote candidate="Hans" address="Feldkirch"/>
+      <div class="container">
+        <Vote candidate="Sepp" address="Dornbirn"/>
+        <Vote candidate="Paul" address="Bregenz"/>
+        <Vote candidate="Hans" address="Feldkirch"/>
+      </div>
     </div>
   );
 }
