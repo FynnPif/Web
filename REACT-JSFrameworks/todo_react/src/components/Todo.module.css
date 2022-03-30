@@ -1,0 +1,14 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: lightblue;
+    margin-bottom: 2px;
+    -webkit-box-shadow: 0px 0px 40px -14px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 40px -14px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 40px -14px rgba(0,0,0,0.75);
+}
+
+.icon{
+    font-size: 3rem;
+}
